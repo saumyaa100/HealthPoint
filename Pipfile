@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+mangum = "*"
+python-dotenv = "*"
+pypdf = "*"
+requests = "*"
+openai = "*"
+numpy = "*"
+pinecone-client = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.12"
